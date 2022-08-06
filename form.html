@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <form id="form">
+        Enter your full name<br>
+        <input type="text" name="Full name=">
+        <p>
+            <label>Username :<input type="text" /></label>
+        </p>
+        <p>
+            <label>Password:<input type="password" /></label>
+        </p>
+        <input type="radio" name="Gender" value="Male">Male
+        <input type="radio" name="Gender" value="Female">Female
+        <p>
+            Choose colors: <br>
+            <li><input type="checkbox" name="color" value="red">Red</li>
+            <li><input type="checkbox" name="color" value="indigo">Indigo</li>
+            <li><input type="checkbox" name="color" value="yellow">Yellow</li>
+        </p>
+        <fieldset>
+            <label>Employee Details</label>
+            <p>
+                Employee ID:<input type="text" name="ID" />
+            </p>
+            <p>
+                Designation : <input type="text" name="ID" />
+            </p>
+            <p>
+                Phone Number: <input type="text" name="Phone" />
+            </p>
+        </fieldset>
+        <p id="log" >
+            <input type="submit" name="submit" value="Submit" />
+        </p>
+    </form>
+    <script src="./form.js"></script>
+</body>
+
+</html>
