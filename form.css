@@ -1,0 +1,23 @@
+#clr {
+    background-color: blueviolet;
+}
+
+#form {
+    color: beige;
+    font-style: italic;
+    font: 300;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#design {
+    background-color: #FF6464;
+    padding: 10px;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    color: white;
+}
+#none{
+    border: none;
+}

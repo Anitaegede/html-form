@@ -6,17 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Forms</title>
+    <link rel="stylesheet" href="./form.css">
 </head>
 
-<body>
+<body id="clr">
     <form id="form">
         Enter your full name<br>
         <input type="text" name="Full name=">
         <p>
-            <label>Username :<input type="text" /></label>
+            <label>Username : <input type="text" /></label>
         </p>
         <p>
-            <label>Password:<input type="password" /></label>
+            <label>Password : <input type="password" /></label>
         </p>
         <input type="radio" name="Gender" value="Male">Male
         <input type="radio" name="Gender" value="Female">Female
@@ -26,10 +27,10 @@
             <li><input type="checkbox" name="color" value="indigo">Indigo</li>
             <li><input type="checkbox" name="color" value="yellow">Yellow</li>
         </p>
-        <fieldset>
+        <fieldset id="none">
             <label>Employee Details</label>
             <p>
-                Employee ID:<input type="text" name="ID" />
+                Employee ID : <input type="text" name="ID" />
             </p>
             <p>
                 Designation : <input type="text" name="ID" />
@@ -39,7 +40,7 @@
             </p>
         </fieldset>
         <p id="log" >
-            <input type="submit" name="submit" value="Submit" />
+            <input id="design" type="submit" name="submit" value="Submit" />
         </p>
     </form>
     <script src="./form.js"></script>
